@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <header id="header">
+        <div class="container">
+            <nav>
+                <div class="logo">PORTFO <span style="color:rgb(211, 17, 50) ;">LIO</span></div>
+                <ul id="sidemenu">
+                    <li><a href="#header">Home</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#services">Services</a></li>
+                    <li><a href="#portfolio">Portfolio</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <i class="fa-solid fa-times" onclick="closemenu()"></i>
+                </ul>
+                <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+            </nav>
+            <div class="header-text">
+                <p>FRONT-END DEVELOPER</p>
+                <h1>Hi, I'm <span>Ankit</span><br> Singh From India</h1>
+            </div>
+        </div>
+    </header>
+
+    <!-- --------------about-------------- -->
+
+    <div id="about">
+        <div class="container">
+            <div class="row">
+                <div class="about-col-1">
+                    <img src="user.png" alt="">
+                </div>
+                <div class="about-col-2">
+                    <h1 class="sub-title">About Me</h1>
+                    <p>Hi, Myself AnkitKumar Singh I am from Silvassa And I want to become a Full-stack Developer
+                        I am Electrical Engineer As well as Front-end developer
+                    </p>
+                    <div class="tab-titles">
+                        <p class="tab-links" onclick="opentaa()">Skills</p>
+                        <p class="tab-links" onclick="opentab()">Experience</p>
+                        <p class="tab-links" onclick="opentac()">Education</p>
+                    </div>
+                    <div class="tabs-content active-tab" id="skills">
+                        <ul>
+                            <li><span>HTML</span><br>Designing Web/App Interfaces</li>
+                            <li><span>CSS</span><br>Designing Web/App Interfaces</li>
+                            <li><span>JAVASCRIPT</span><br>Designing Web/App Interfaces</li>
+                        </ul>
+                    </div>
+                    <div class="tabs-content" id="experience">
+                        <ul>
+                            <li><span>Alok Industries</span><br>Electrical Engineer Internship</li>
+                            <li><span>Oasis Infobyte</span><br>Web development Internhsip</li>
+                            <li><span>Lets Growmore</span><br>Web Development Internhsip</li>
+                        </ul>
+                    </div>
+                    <div class="tabs-content" id="education">
+                        <ul>
+                            <li><span>2016</span><br>Sarvottam Higher Secondary School Silvassa </li>
+                            <li><span>2018</span><br>Sarvottam Higher Secondary School Silvassa </li>
+                            <li><span>2022</span><br>Govermant Engineering Collge ,Bharuch</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- -------------services------------- -->
+
+    <div id="services">
+        <div class="container">
+            <div class="sub-title">My Services</div>
+            <div class="services-list">
+                <div>
+                    <i class="fa-solid fa-code"></i>
+                    <h2>Web Design</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reiciendis rerum voluptates
+                        perferendis dolor laboriosam repellat a. Quos, tenetur maiores.</p>
+                    <a href="">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-app-store"></i>
+                    <h2>Web Development</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reiciendis rerum voluptates
+                        perferendis dolor laboriosam repellat a. Quos, tenetur maiores.</p>
+                    <a href="">learn more</a>
+                </div>
+                <div>
+                    <i class="fa-brands fa-crop-alt"></i>
+                    <h2>UI/UX</h2>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. In reiciendis rerum voluptates
+                        perferendis dolor laboriosam repellat a. Quos, tenetur maiores.</p>
+                    <a href="">learn more</a>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- -----------potfolio------- -->
+
+    <div id="portfolio">
+        <div class="container">
+            <div class="sub-title">My Work</div>
+            <div class="work-list">
+                <div class="work">
+                    <img src="work-1.png" alt="">
+                    <div class="layer">
+                        <h3>Social Media App</h3>
+                        <p>The app connects you to the talanted people around the world.
+                            Download it form play store 
+                        </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="work-2.png" alt="">
+                    <div class="layer">
+                        <h3>Music Player  App</h3>
+                        <p>The app connects you to the talanted people around the world.
+                            Download it form play store 
+                        </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                    
+                </div>
+                <div class="work">
+                    <img src="work-3.png" alt="">
+                    <div class="layer">
+                        <h3>Online Shopping  App</h3>
+                        <p>The app connects you to the talanted people around the world.
+                            Download it form play store 
+                        </p>
+                        <a href=""><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="contact-left">
+                    <h1 class="sub-title">Contact Me</h1>
+                    <p> <i class="fa-solid fa-phone"></i> contact@gmail.com</p>
+                    <p> <i class="fa-solid fa-paper-plane"></i> 0123456789</p>
+                    <div class="social-icons">
+                        <a href=""><i class="fab fa-instagram"></i></a>
+                        <a href=""><i class="fab fa-facebook"></i></a>
+                        <a href=""><i class="fab fa-twitter"></i></a>
+                        <a href=""><i class="fab fa-linkedin"></i></a>
+                    </div>
+                    <a href="" class="btn">Download cv</a>
+                </div>
+                <div class="contact-right">
+                    <form action="">
+                        <input type="text" name="Name" placeholder="Your Name">
+                        <input type="text" name="Name" placeholder="Your Email">
+                        <textarea name="Messgae" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="index.js"></script>
+</html>
